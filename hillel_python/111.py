@@ -1,4 +1,5 @@
 import tkinter as tk
+import math
 from tkinter import messagebox
 
 def ask_name():
@@ -17,7 +18,7 @@ def ask_name():
     input_window.resizable(True, True)
 
     # Надпис
-    label = tk.Label(input_window, text="Введи своє ім'я:", font=("Arial", 14))
+    label = tk.Label(input_window, text="Введи свій приклад:", font=("Arial", 14))
     label.pack(pady=20)
 
     # Поле вводу
