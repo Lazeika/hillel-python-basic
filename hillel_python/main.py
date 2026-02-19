@@ -122,3 +122,4 @@ for x in range(1, 11): # Від 1 до 10 включно
         print(f"{x} - непарне")"""
 # Візуалізація Списку зі списками - matrix[row][column]
 # print(2 in lst)
+# deepcopy
